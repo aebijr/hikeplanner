@@ -9,7 +9,7 @@ from pathlib import Path
 from azure.storage.blob import BlobServiceClient
 from dotenv import load_dotenv
 
-RAW_DIR = Path(__file__).resolve().parent / "gpx-data" / "hikr-raw-data"
+RAW_DIR = Path(__file__).resolve().parent / "gpx-data" / "gpx-collected-curated"
 RAW_CONTAINER_PREFIX = "hikeplanner-raw-data"
 
 
