@@ -54,7 +54,7 @@
 </script>
 
 <svelte:head>
-    <title>HikePlanner 🚀</title>
+    <title>HikePlanner <strong>TEST</strong></title>
 </svelte:head>
 
 <div class="app-bg">
