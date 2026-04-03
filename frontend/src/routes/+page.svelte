@@ -146,20 +146,26 @@
                         HikePlanner
                     </h1>
 
-                    <p class="text-muted mb-4">
-                        Schätze die Gehzeit basierend auf Distanz und Höhenmetern.
-                    </p>
+                    <div class="d-flex justify-content-between small mb-3">
+                                <span>Der HikePlanner berechnet deine Gehzeit durch die Kombination von Distanz und Höhenmetern. Neben den Standardberechnungen nach DIN 33466 oder dem SAC-Modell stehen dir Machine-Learning-Verfahren wie Gradient Boosting und Lineare Regression zur Verfügung, die auf echten Wanderdaten trainiert wurden.</span>
+                    </div>
 
                     <form
                         class="vstack gap-3"
                         on:submit|preventDefault={predict}
                     >
 
+
+                    <div class="d-flex align-items-center justify-content-between mb-0">
+                        <h2 class="h5 mb-0 fw-semibold">Parameter</h2>
+                    </div>
+
                         <!-- Abwärts Höhenmeter -->
                         <div>
-                            <label class="form-label fw">
-                                Abwärts [m]
-                            </label>
+                            <div class="d-flex justify-content-between small">
+                                <span>Abwärts [m]</span>
+                            </div>
+
 
                             <div class="row g-2 align-items-center">
                                 <div class="col-4">
@@ -190,9 +196,9 @@
 
                         <!-- Aufwärts Höhenmeter -->
                         <div>
-                            <label class="form-label fw">
-                                Aufwärts [m]
-                            </label>
+                            <div class="d-flex justify-content-between small">
+                                <span>Aufwärts [m]</span>
+                            </div>
 
                             <div class="row g-2 align-items-center">
                                 <div class="col-4">
@@ -223,9 +229,9 @@
 
                         <!-- Distanz -->
                         <div>
-                            <label class="form-label fw">
-                                Distanz [m]
-                            </label>
+                            <div class="d-flex justify-content-between small">
+                                <span>Distanz [m]</span>
+                            </div>
 
                             <div class="row g-2 align-items-center">
                                 <div class="col-4">

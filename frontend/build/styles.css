@@ -42,12 +42,24 @@ body {
 }
 
 h1, h2 {
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 0.5px;
-    color: #121212;
+    /* Inter ist die beste Wahl für den Apple-Look */
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    
+    /* Etwas engeres Spacing für den hochwertigen UI-Look */
+    letter-spacing: -0.02em;
+    
+    /* Ein fast schwarzes Anthrazit wirkt edler als reines Schwarz */
+    color: #1a1a1a;
+    
+    /* Kräftiges Gewicht für die Hierarchie */
+    font-weight: 700;
+    
+    /* Verhindert unschöne Umbrüche */
+    line-height: 1.2;
 }
 
+
+
 body {
-    font-family: 'Lato', sans-serif;
     color: #121212;
 }
