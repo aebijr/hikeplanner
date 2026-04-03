@@ -143,7 +143,7 @@
                     "
                 >
                     <h1 class="display-6 fw-bold mb-2">
-                        HikePlanner
+                        HikePlanner DEMO
                     </h1>
 
                     <div class="d-flex justify-content-between small mb-3">
